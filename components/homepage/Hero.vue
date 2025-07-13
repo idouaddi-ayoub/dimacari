@@ -19,6 +19,7 @@
         >
           Choisissez ville de retour
         </h1>
+
         <div class="flex w-full justify-between items-center gap-2 mb-2">
           <h1
             class="text-gray-400 bg-white font-semibold border-1 border-black rounded-xl w-full p-2 text-[11px]"
@@ -53,6 +54,7 @@
       </div>
     </div>
   </div>
+  <CarsSlidertest />
 </template>
 
 <style>

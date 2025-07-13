@@ -32,7 +32,7 @@
       </h1>
     </div>
     <h1 class="text-black text-center font-bold text-[14px] mt-5">
-      © 2024 dimacari, Tous droits réservés.
+      © 2025 dimacari, Tous droits réservés.
     </h1>
   </div>
 </template>

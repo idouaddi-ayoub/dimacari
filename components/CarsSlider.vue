@@ -1,16 +1,17 @@
 <script setup lang="ts">
-const items = ["5", "é"];
+const items = ["1", "2", "3", "4", "5"];
 
 const groupedItems = computed(() => {
   const groups = [];
   for (let i = 0; i < items.length; i += 1) {
-    groups.push(items.slice(i, i + 5));
+    groups.push(items.slice(i, i + 1));
   }
   return groups;
 });
 </script>
 
 <template>
+  <!-- Car slider needs to work with CarsContainer component -->
   <div class="m-10"></div>
   <UCarousel
     :items="groupedItems"
@@ -24,7 +25,6 @@ const groupedItems = computed(() => {
     :next="{ label: 'apaph' }"
   >
     <div class="grid grid-cols-1 gap-2 m-2">
-      <CarsContainer />
       <CarsContainer />
     </div>
   </UCarousel>

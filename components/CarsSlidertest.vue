@@ -28,8 +28,8 @@ const items = [
 
 const groupedItems = computed(() => {
   const groups = [];
-  for (let i = 0; i < items.length; i += 3) {
-    groups.push(items.slice(i, i + 5));
+  for (let i = 0; i < items.length; i += 8) {
+    groups.push(items.slice(i, i + 2));
   }
   return groups;
 });
@@ -49,7 +49,7 @@ const groupedItems = computed(() => {
     :prev="{ label: 'apaph' }"
     :next="{ label: 'apaph' }"
   >
-    <div class="grid grid-cols-2 gap-2 m-2">
+    <div class="grid grid-cols-1 gap-2 m-2">
       <img
         v-for="(img, index) in item"
         :key="index"

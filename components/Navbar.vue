@@ -12,7 +12,9 @@
       />
     </NuxtLink>
     <div class="flex pr-5 justify-center items-center rounded-tr-4xl">
-      <img src="../assets/svg/NavButton.svg" width="30" />
+      <NuxtLink to="/dashboard">
+        <img src="../assets/svg/NavButton.svg" width="30"
+      /></NuxtLink>
     </div>
   </div>
 </template>

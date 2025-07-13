@@ -4,5 +4,4 @@
   <HomepageSteps />
   <HomepageExplore />
   <HomepageFAQ />
-  <Footer />
 </template>
