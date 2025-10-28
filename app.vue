@@ -6,13 +6,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <UApp>
-    <NuxtLayout />
-  </UApp>
+  <NuxtPage />
 </template>
 
-<style>
-body {
-  background-color: rgba(255, 255, 255, 1);
-}
-</style>
+<style></style>

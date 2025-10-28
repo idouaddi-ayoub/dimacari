@@ -1,7 +1,6 @@
+<script setup lang="ts">
+import Hero from "./home/hero.vue";
+</script>
 <template>
-  <HomepageHero />
-  <HomepageAbout />
-  <HomepageSteps />
-  <HomepageExplore />
-  <HomepageFAQ />
+  <Hero />
 </template>
